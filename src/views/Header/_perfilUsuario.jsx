@@ -2,7 +2,7 @@ import React from 'react'
 
 const _perfilUsuario = ({usuario}) => {
   return (
-    <div>
+    <div className="perfilUsuario centerX centerY">
       <button>
       <span className="fa fa-user-circle"> </span>
       <span>{usuario}</span>

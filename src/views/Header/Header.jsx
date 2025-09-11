@@ -2,15 +2,23 @@ import Buscador from "./_buscador"
 import Logo from "./_logo"
 import PerfilUsuario from "./_perfilUsuario"
 import './Header.css'
-const Header = () => {
+const Header = ({usuario}) => {
   return (
-    <div className="header">
-    <section className="navegacion">
+    <section className="header">
+    <div className="header-superior">
     <Logo></Logo>
     <PerfilUsuario usuario="Cristian"></PerfilUsuario>
-    </section>
-    <Buscador></Buscador>
     </div>
+    
+    <section className="bienvenida">
+    <h1>Buenas noches {usuario}</h1>
+    <p>Te ayudamos a encontrar los mejores restaurantes, bares
+    y cafeterias </p>
+    </section>
+    
+   
+    <Buscador></Buscador>
+    </section>
   )
 }
 

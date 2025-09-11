@@ -1,0 +1,19 @@
+.categorias {
+  height: 15vh;
+  
+}
+
+.item-categoria {
+    width: 60px;
+    height: 50px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 2vh;
+    border-radius: 1em;
+    font-weight: 700;
+    font-size: .75em;
+    .fa{
+        font-size: 2.25em;
+    }
+    
+}
