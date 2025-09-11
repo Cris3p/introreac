@@ -1,6 +1,6 @@
 .categorias {
-  height: 15vh;
-  
+ display: flex;
+
 }
 
 .item-categoria {
